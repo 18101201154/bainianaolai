@@ -1,0 +1,20 @@
+test_add_address_01:
+  reciver: zhangsan
+  phone: 13488834010
+  city1: TBD云集中心2号楼
+  post: 10086
+  tage: 1
+test_add_address_02:
+  reciver: z
+  phone: 13488834010
+  city1: TBD云集中心2号楼
+  post: 10086
+  expect_data: 收件人姓名2-15个字符
+  tage: 0
+test_add_address_03:
+  reciver: zhangsan
+  phone: 134888340101
+  city1: TBD云集中心2号楼
+  post: 10086
+  expect_data: 11位手机号
+  tage: 0
